@@ -11,3 +11,4 @@ ng Serve -O
 
 /*to create new component*/
 ng generate component "Compoment Name"
+
