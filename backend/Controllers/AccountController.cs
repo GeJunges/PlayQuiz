@@ -2,18 +2,13 @@
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using backend.Configs;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 
 namespace backend.Controllers
 {
-    public class Credentials
-    {
-        public string Email { get; set; }
-        public string Password { get; set; }
-    }
-
     [Produces("application/json")]
     [Route("api/account")]
     public class AccountController : Controller

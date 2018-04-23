@@ -12,3 +12,5 @@ ng Serve -O
 /**to create new component**/
 ng generate component "Compoment Name"
 
+/**DB First EF Core**/
+Scaffold-DbContext "Server=ConnectionString complete" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "folder in project"
